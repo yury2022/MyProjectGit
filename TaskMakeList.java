@@ -14,4 +14,7 @@ public class TaskMakeList {
         numbers.add(number5);
         System.out.println("Наименьше значение списка равно: " + Collections.min(numbers));
     }
+    public static void main(String[] args) {
+        CreateList(20, 68, 18, 30, 44, 53);
+    }
 }
